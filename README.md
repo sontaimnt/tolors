@@ -12,7 +12,7 @@ import tolors
 tolors.tolorful_print(text="Hello World" , background=tolors.BLUEB , foreground=tolors.REDF)
 ```
 
-![master](src/test.jpg)
+![master](src/test.png)
 
 # Note:-
 
