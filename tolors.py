@@ -1,9 +1,4 @@
-from os import system
-import platform
-
-os=platform.system()
-
-global BLACKF, BLUEF, REDF, GREENF, YELLOWF, CYANF, MAGENTAF, WHITEF , BLACKB , REDB
+global BLACKF, BLUEF, REDF, GREENF, YELLOWF, CYANF, MAGENTAF, WHITEF , BLACKB , REDB 
 BLACKF = "\u001b[30m"
 REDF = "\u001b[31m"
 GREENF = "\u001b[32m"
@@ -22,13 +17,8 @@ CYANB = "\u001b[46m"
 WHITEB = "\u001b[47m"
 RESET = "\u001b[0m"
 
-def tolorful_print(text , background=RESET, foreground=BLACKF):
-    if platform=="Windows" and not text==None:
-        print(background , foreground , text)
-        print(RESET)
-
+def tolorful_print(text , bg=BLACKB, fg=WHITEF):
     if not text==None:
-        system("printf " + '"' + background +foreground+ text + "\n" + '"')
-        system("printf " + RESET + RESET)
+        print(bg , fg , text)
     else:
         exit(255)
