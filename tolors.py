@@ -34,6 +34,6 @@ RESET = "\u001b[0m"
 
 def tolorful_print(text , bg=BLACKB, fg=WHITEF):
     if not text==None:
-        print(bg , fg , text)
+        print(f"{bg} {fg} {text} {RESET}")
     else:
         exit(255)
