@@ -28,7 +28,7 @@ tolorful_print(text='L' , bg=MAGENTAB , fg=BLACKF)
 tolorful_print(text='' , bg=RESET , fg=RESET)
 ```
 
-![master](src/test.png)
+![master](src/tolors.png)
 
 # Colors
 
