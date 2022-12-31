@@ -1,7 +1,7 @@
 # tolors
 A minimal library adding colors to terminal apps written in python
 
-# NOTE(13.12.22):-
+# NOTE(31.12.22):-
 
 `tolors` will no longer be supported by me anymore...
 
